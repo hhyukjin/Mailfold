@@ -1,0 +1,16 @@
+{
+  "gmail": {
+    "label": "Gmail",
+    "strategy": "gmail",
+    "imap": { "host": "imap.gmail.com", "port": 993, "secure": true },
+    "smtp": { "host": "smtp.gmail.com", "port": 465, "secure": true },
+    "login": "email"
+  },
+  "naver": {
+    "label": "네이버",
+    "strategy": "imap",
+    "imap": { "host": "imap.naver.com", "port": 993, "secure": true },
+    "smtp": { "host": "smtp.naver.com", "port": 465, "secure": true },
+    "login": "localpart"
+  }
+}

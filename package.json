@@ -1,0 +1,34 @@
+{
+  "name": "mailfold",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Gmail 여러 계정과 네이버 메일을 하나로 묶는 메일 서버 (웹 UI + 원격 MCP)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "probe": "tsx scripts/probe.ts",
+    "migrate-env": "tsx scripts/migrate-env.ts",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:integration": "vitest run test/integration",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "imapflow": "^2.12.2",
+    "nodemailer": "^10.6.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/nodemailer": "^8.0.2",
+    "@types/smtp-server": "^3.5.13",
+    "hoodiecrow-imap": "^3.3.1",
+    "smtp-server": "^3.21.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}
