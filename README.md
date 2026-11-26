@@ -1,7 +1,11 @@
 # Mailfold
 
-Gmail 여러 계정과 네이버 메일을 하나로 묶어, 웹 UI와 claude.ai 원격 MCP(모바일 포함)에서 함께 쓰는 메일 서버입니다.
-지금은 **0단계(연결 점검)** 입니다. 전체 계획은 계획 문서를 참고하세요.
+> Mailfold = mail + manifold: many mailboxes folded into one.
+
+Mailfold는 manifold와 mail을 합친 이름으로, 여러 메일 계정(Gmail 여러 개 + 네이버 등)을 하나로 모아 준다는 뜻입니다.
+
+이름 그대로, 흩어져 있는 메일 계정을 IMAP/SMTP로 한곳에 연결해 웹 UI와 claude.ai 원격 MCP(모바일 포함)에서 함께 읽고 관리하는 것을 목표로 하는 메일 서버입니다.
+지금은 **0단계(연결 점검)** 로, 계정별 접속과 서버 기능을 읽기 전용으로 확인하는 단계입니다.
 
 ## 준비
 
